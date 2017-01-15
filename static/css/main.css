@@ -687,6 +687,12 @@ body {
   @media (max-width: 1180px) {
     .work {
       max-width: 100%; } }
+  @media (max-width: 610px) {
+    .work {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      margin-top: 50px; } }
   .work h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
@@ -966,7 +972,14 @@ body {
     .about--banner img {
       display: none; }
   .about--options {
-    display: none; } }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .about--options a {
+      width: 90px; }
+  .about--banner #history, .about--banner #awards, .about--banner #products {
+    font-size: 16px;
+    line-height: 21px; } }
 
 .contact {
   position: fixed;
