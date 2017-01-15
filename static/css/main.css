@@ -976,7 +976,10 @@ body {
     display: -ms-flexbox;
     display: flex; }
     .about--options a {
-      width: 90px; }
+      width: 90px;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto; }
   .about--banner #history, .about--banner #awards, .about--banner #products {
     font-size: 16px;
     line-height: 21px; } }
