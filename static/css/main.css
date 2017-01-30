@@ -687,12 +687,6 @@ body {
   @media (max-width: 1180px) {
     .work {
       max-width: 100%; } }
-  @media (max-width: 610px) {
-    .work {
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start;
-      margin-top: 50px; } }
   .work h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
@@ -972,17 +966,7 @@ body {
     .about--banner img {
       display: none; }
   .about--options {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .about--options a {
-      width: 90px;
-      -webkit-box-flex: 0;
-          -ms-flex: 0 0 auto;
-              flex: 0 0 auto; }
-  .about--banner #history, .about--banner #awards, .about--banner #products {
-    font-size: 16px;
-    line-height: 21px; } }
+    display: none; } }
 
 .contact {
   position: fixed;
@@ -1292,7 +1276,7 @@ body {
 .outer-nav {
   position: absolute;
   top: 50%;
-  left: 48%;
+  left: 55%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-transform-style: preserve-3d;
@@ -1356,9 +1340,7 @@ body {
         font-size: 44px; } }
     @media (max-width: 600px) {
       .outer-nav > li {
-        font-size: 26px; }
-        .outer-nav > li:before {
-          height: 7px; } }
+        font-size: 34px; } }
   .outer-nav li.is-vis:nth-child(2) {
     -webkit-transition-delay: .04s;
             transition-delay: .04s; }
@@ -1371,3 +1353,28 @@ body {
   .outer-nav li.is-vis:nth-child(5) {
     -webkit-transition-delay: .16s;
             transition-delay: .16s; }
+
+.language {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  visibility: hidden;
+  -webkit-transition: visibility 0s .2s;
+  transition: visibility 0s .2s; }
+  .language__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px; }
+  .language.is-vis {
+    visibility: visible; }

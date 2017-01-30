@@ -5,10 +5,6 @@ $( document ).ready(function() {
   // DOMMouseScroll included for firefox support
   var canScroll = true,
       scrollController = null;
-  $('#history-icon').onclick(function () {
-      $('#slogan').toggle();
-      $('#history').toggle();
-  })
   $(this).on('mousewheel DOMMouseScroll', function(e){
 
     if (!($('.outer-nav').hasClass('is-vis'))) {
@@ -276,7 +272,6 @@ $( document ).ready(function() {
     });
 
   }
-
 
   outerNav();
   workSlider();
