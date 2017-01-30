@@ -86,14 +86,13 @@
       bottom: -90px
       right: -12px
       width: 100%
-    #history
+    .history
       font-size: 27px
       line-height: 39px
-    #products
+    .products
       font-size: 50px
-    #awards
+    .awards
       font-size: 60px
-
 
   &--options
     display: flex
@@ -135,6 +134,10 @@
       font-size: 16px
       text-transform: uppercase
       transition: bottom .2s ease-in-out, left .2s ease-in-out
+.de
+  .about--banner
+    .history
+      line-height: 33px
 
 @media (max-width: 767px)
 
@@ -162,7 +165,13 @@
         &::after
           top: 163px
           left: 163px
-
+      #history
+        font-size: 14px
+        line-height: 25px
+      #products
+        font-size: 30px
+      #awards
+        font-size: 30px
       //img
       //  width: 315px
 
@@ -193,6 +202,9 @@
 
       img
         display: none
-
-    &--options
-      display: none
+  .de
+    .about--options
+      h3
+        font-size: 11px
+    #slogan
+      font-size: 28px
