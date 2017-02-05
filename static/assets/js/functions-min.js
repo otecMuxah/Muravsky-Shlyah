@@ -38,12 +38,12 @@ function send_form() {
         data: msg,
         success: function(data) {
             alert("Сообщение отправлено");
+            $('#form-submit').on('click', function () {
+                $(this).attr("disabled", true);
+                $(this).addClass("disabled");
+            });
             setTimeout(function () {
                 $(".feedback_form_bg").fadeOut();}, 1000);
-                $('#form-submit').on('click', function () {
-                    $(this).attr("disabled", true);
-                    $(this).addClass("disabled");
-                });
         },
         error:  function(xhr, str){
             alert("Возникла ошибка!");

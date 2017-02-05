@@ -22,8 +22,7 @@
   flex-direction: column
   align-items: center
   color: $white
-  .disabled
-    background-color: #aeaeae
+
   input[type="submit"]
     width: 400px
     max-width: 100%
@@ -128,6 +127,9 @@
     input.has-value + label
       top: -15px
       font-size: 14px
+.disabled
+  background-color: #aeaeae !important
+  cursor: none
 
 @media (max-width: 767px)
 
