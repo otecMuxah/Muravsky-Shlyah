@@ -1093,6 +1093,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #fff; }
+  .work-request .disabled {
+    background-color: #aeaeae; }
   .work-request input[type="submit"] {
     width: 400px;
     max-width: 100%;
