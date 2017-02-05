@@ -47,3 +47,6 @@ function send_form() {
         }
     });
 }
+$('#form-submit').on(click, function () {
+    $(this).attr("disabled");
+})

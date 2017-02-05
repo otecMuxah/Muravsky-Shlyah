@@ -1100,9 +1100,9 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: gray;
     border: none;
-    border-radius: 0; }
+    border-radius: 0;
+    background-color: #0f33ff; }
     .work-request input[type="submit"]:focus {
       outline: none; }
   .work-request--options {
