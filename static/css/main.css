@@ -337,12 +337,12 @@ body {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; } }
-  @media (max-width: 736px) and (min-width: 350px) and (orientation: landscape) {
+  @media (max-width: 736px) and (min-width: 340px) and (orientation: landscape) {
     .device-notification {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; } }
-  @media (max-width: 350px) {
+  @media (max-width: 340px) {
     .device-notification {
       display: -webkit-box;
       display: -ms-flexbox;
