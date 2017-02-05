@@ -21,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="265" column="48" lean-forward="true" selection-start-line="265" selection-start-column="48" selection-end-line="265" selection-end-column="48" />
+            <state relative-caret-position="465">
+              <caret line="275" column="21" lean-forward="true" selection-start-line="197" selection-start-column="14" selection-end-line="275" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#h2#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#2;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions-min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions-min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/assets/js/functions-min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="45" column="58" lean-forward="false" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+            <state relative-caret-position="389">
+              <caret line="40" column="74" lean-forward="false" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -85,18 +85,18 @@
       <file leaf-file-name="index_de.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/index_de.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="145" column="47" lean-forward="false" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
+            <state relative-caret-position="610">
+              <caret line="271" column="21" lean-forward="false" selection-start-line="271" selection-start-column="21" selection-end-line="271" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_ua.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_ua.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/index_ua.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2516">
-              <caret line="148" column="47" lean-forward="false" selection-start-line="148" selection-start-column="47" selection-end-line="148" selection-end-column="47" />
+            <state relative-caret-position="593">
+              <caret line="276" column="21" lean-forward="false" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -154,14 +154,14 @@
         <option value="$PROJECT_DIR$/frontend/SCSS/modules/_work.sass" />
         <option value="$PROJECT_DIR$/frontend/SCSS/modules/_device-notification.sass" />
         <option value="$PROJECT_DIR$/frontend/SCSS/modules/_intro.sass" />
-        <option value="$PROJECT_DIR$/static/index_de.html" />
-        <option value="$PROJECT_DIR$/static/index_ua.html" />
         <option value="$PROJECT_DIR$/frontend/SCSS/modules/_about.sass" />
         <option value="$PROJECT_DIR$/frontend/SCSS/modules/_outer-nav.sass" />
         <option value="$PROJECT_DIR$/static/assets/php/send_form.php" />
-        <option value="$PROJECT_DIR$/static/index.html" />
         <option value="$PROJECT_DIR$/frontend/SCSS/modules/_hire.sass" />
         <option value="$PROJECT_DIR$/static/assets/js/functions-min.js" />
+        <option value="$PROJECT_DIR$/static/index.html" />
+        <option value="$PROJECT_DIR$/static/index_de.html" />
+        <option value="$PROJECT_DIR$/static/index_ua.html" />
       </list>
     </option>
   </component>
@@ -502,12 +502,12 @@
       <workItem from="1485793768464" duration="6433000" />
       <workItem from="1485947013812" duration="944000" />
       <workItem from="1486285136660" duration="1881000" />
-      <workItem from="1486287056191" duration="4165000" />
+      <workItem from="1486287056191" duration="4395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18481000" />
+    <option name="totallyTimeSpent" value="18711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1268,22 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/index_de.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="145" column="47" lean-forward="false" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index_ua.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="148" column="47" lean-forward="false" selection-start-line="148" selection-start-column="47" selection-end-line="148" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/SCSS/modules/_about.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2363">
@@ -1324,18 +1308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="265" column="48" lean-forward="true" selection-start-line="265" selection-start-column="48" selection-end-line="265" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#h2#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#2;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#3;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/SCSS/modules/_hire.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1346,8 +1318,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/assets/js/functions-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="45" column="58" lean-forward="false" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+        <state relative-caret-position="389">
+          <caret line="40" column="74" lean-forward="false" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="275" column="21" lean-forward="true" selection-start-line="197" selection-start-column="14" selection-end-line="275" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#h2#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#2;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#3;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index_de.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="271" column="21" lean-forward="false" selection-start-line="271" selection-start-column="21" selection-end-line="271" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index_ua.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="276" column="21" lean-forward="false" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
           <folding />
         </state>
       </provider>

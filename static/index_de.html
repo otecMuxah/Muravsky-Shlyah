@@ -191,10 +191,10 @@
             <div class="hire">
               <h2>Was möchten Sie kaufen ?</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form class="work-request" method="post" action="javascript:void(0);" onsubmit="send_form();" id="forma">
                 <div class="work-request--options">
                   <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
+                    <input id="opt-1" type="checkbox" value="Wheat"  name="fio">
                     <label for="opt-1">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -202,9 +202,9 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Weizen
+                      Wheat
                     </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <input id="opt-2" type="checkbox" value="Sunflower" name="phone">
                     <label for="opt-2">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -212,9 +212,9 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Sonnenblume
+                      Sunflower
                     </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
+                    <input id="opt-3" type="checkbox" value="Soybean" name="email">
                     <label for="opt-3">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -222,11 +222,11 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Sojabohne
+                      Soybean
                     </label>
                   </span>
                   <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
+                    <input id="opt-4" type="checkbox" value="oats" name="adres">
                     <label for="opt-4">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -234,9 +234,9 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Hafer
+                      Oats
                     </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
+                    <input id="opt-5" type="checkbox" value="millet" name="millet">
                     <label for="opt-5">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -244,9 +244,9 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Hirse
+                      Millet
                     </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
+                    <input id="opt-6" type="checkbox" value="other" name="other">
                     <label for="opt-6">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -254,21 +254,21 @@
                         <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
                       </g>
                       </svg>
-                      Andere<br>Zusammenarbeit
+                      Other<br>Cooperation
                     </label>
                   </span>
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
+                    <input id="name" type="text" spellcheck="false" name="username" required>
                     <label for="name">Name</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email" type="email" spellcheck="false" name="user-email" required>
                     <label for="email">Email</label>
                   </div>
                 </div>
-                <input disabled type="submit" value="Anfrage senden">
+                <input type="submit" value="Send Request" id="form-submit">
               </form>
             </div>
           </li>
