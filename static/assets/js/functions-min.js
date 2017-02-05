@@ -30,3 +30,20 @@ $('.outer-nav--return, .outer-nav li, .language li').click(function(){
     $('.outer-nav, .outer-nav li, .outer-nav--return, .language, .language li').removeClass('is-vis');
 
 });
+function send_form() {
+    var msg = $("#forma").serialize();
+    $.ajax({
+        type: "POST",
+        url: "assets/php/send_form.php",
+        data: msg,
+        success: function(data) {
+            alert("Сообщение отправлено");
+            setTimeout(function () {
+                $(".feedback_form_bg").fadeOut();}, 1000);
+        },
+        error:  function(xhr, str){
+            alert("Возникла ошибка!");
+            setTimeout(function () {$(".feedback_form_bg").fadeOut();}, 1000);
+        }
+    });
+}
